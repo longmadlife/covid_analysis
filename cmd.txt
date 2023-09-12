@@ -1,0 +1,17 @@
+sudo pip install virtualenv
+virtualenv -p python venv
+source venv/bin/activate
+airflow_project
+
+#libaries
+sudo apt-get update
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas
+sudo pip install datetime
+sudo pip install bigquery
+google.cloud
+curl https://sdk.cloud.google.com | bash
+gcloud auth login
+#airlow
+airflow standalone
